@@ -5,6 +5,6 @@ n = -5:5;
 x = (n == 0);
 stem(n, x, 'filled');
 xlabel('n');
-ylabel('\delta[n]');
+ylabel('x[n](Amplitude)');
 title('Discrete-Time Unit Impulse Signal');
 grid on; 
