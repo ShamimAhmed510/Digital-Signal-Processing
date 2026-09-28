@@ -1,0 +1,10 @@
+clc;
+clear;
+close all;
+n = -5:5;
+x = (n == 0);
+stem(n, x, 'filled');
+xlabel('n');
+ylabel('\delta[n]');
+title('Discrete-Time Unit Impulse Signal');
+grid on; 
